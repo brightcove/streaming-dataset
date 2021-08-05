@@ -4,7 +4,7 @@ Brightcove Streaming Datasets
 This project contains several examples of real-world streaming playback statistics provided for academic research purposes.
 The description of this data set and possible examples of its use are explained in papers:
 
-* T. Teixeira, B. Zhang, Y. Reznik, "Adaptive Streaming Playback Statistics Dataset," Proc. ACM Multimedia Systems Conference (MMSys), Istanbul, Turkey. September 28 - October 11, 2021 (submitted)
+* T. Teixeira, B. Zhang, Y. Reznik, "Adaptive Streaming Playback Statistics Dataset," Proc. 12th ACM Multimedia Systems Conference (MMSys '21), Istanbul, Turkey. September 28-October 1, 2021. [DOI 10.1145/3458305.3478444](https://doi.org/10.1145/3458305.3478444)
 
 * Y. Reznik, K. Lillevold, A. Jagannath, and X. Li, "Towards Understanding of the Behavior of Web Streaming,"  Proc. The Picture Coding Symposium (PCS'21), Bristol, UK, June 29 - July 2, 2021.
 
@@ -12,6 +12,13 @@ This material is shared under Apache License Version 2.0, with the full text of 
 
 
 ## Explanation of parameters/data fields provided in the data set:
+Files are organized in directories, one for each event. Files inside those directories are organized with the following naming convention:
+
+`eventX_playback_statistics_Y.csv`
+
+where `X` is the event number or identification and `Y` is the file number breakdown for each event to accommodate GitHub's limitation of 100 MB file size.
+
+Each file contains the following columns:
 
 <table>
 <thead>
@@ -123,7 +130,7 @@ This material is shared under Apache License Version 2.0, with the full text of 
 
 If you found the datasets useful and used in your research, we kindly ask that you would reference the following paper:
 
-T. Teixeira, B. Zhang, Y. Reznik, "Adaptive Streaming Playback Statistics Dataset," Proc. ACM Multimedia Systems Conference (MMSys), Istanbul, Turkey. September 28 - October 11, 2021 (submitted)
+T. Teixeira, B. Zhang, Y. Reznik, "Adaptive Streaming Playback Statistics Dataset," Proc. 12th ACM Multimedia Systems Conference (MMSys '21), September 28-October 1, 2021, Istanbul, Turkey
 
 ## Contact the Authors
 
